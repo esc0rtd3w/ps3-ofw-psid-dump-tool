@@ -23,6 +23,9 @@ set root=%~dp0
 
 :start
 
+:: Remove any previous FTP texts
+del /f /q %ftpText%
+
 color 0e
 
 cls
@@ -40,9 +43,7 @@ pause>nul
 
 :ipAddr
 cls
-%laqua%
 echo Enter PS3 IP Address and press ENTER:
-%lyellow%
 echo.
 echo.
 
@@ -56,14 +57,14 @@ echo Removing previous PSID.dat from CFW Console....
 echo.
 echo.
 
-echo user ps3>>%ftpText%
+echo user ps3>%ftpText%
 echo ps3>>%ftpText%
 echo bin>>%ftpText%
 echo cd /dev_hdd0/game/NPUP00030/USRDIR/APPDATA/>>%ftpText%
 echo mdelete PSID.dat>>%ftpText%
 echo quit>>%ftpText%
 
-ftp -n -s:%ftpText% %ip%
+ftp -n -i -s:%ftpText% %ip%
 del /f /q %ftpText%
 
 
@@ -201,7 +202,7 @@ echo.
 
 pause>nul
 
-echo user ps3>>%ftpText%
+echo user ps3>%ftpText%
 echo ps3>>%ftpText%
 echo bin>>%ftpText%
 echo cd /dev_hdd0/game/NPUP00030/USRDIR/APPDATA>>%ftpText%

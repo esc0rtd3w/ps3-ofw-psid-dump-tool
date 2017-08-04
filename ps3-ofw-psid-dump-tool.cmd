@@ -25,8 +25,6 @@ set root=%~dp0
 
 color 0e
 
-goto getPSID
-
 cls
 echo Make sure any previous PSID is removed before starting!
 echo.

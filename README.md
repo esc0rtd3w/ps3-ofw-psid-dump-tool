@@ -4,6 +4,8 @@ Dump PSID From OFW Using Netflix and DTU
 
 * I tested using the NPUP00030 version of Netflix. I have updated the scripting to allow region selection since the initial release *
 
+ * YOU DO NOT NEED A NETFLIX ACCOUNT OR INTERNET ACCESS FOR THIS TO WORK *
+ 
 * I SHOULD WARN THAT THE CFW CONSOLE HDD GETS ERASED DURING THIS PROCESS!!! *
 
 Ok, this is yet another side project that I have been wanting to test more, and that day has come!!

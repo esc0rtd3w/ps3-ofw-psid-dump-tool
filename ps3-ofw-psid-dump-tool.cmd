@@ -20,6 +20,8 @@ set ftpText="%temp%\ftpTextTemp.txt"
 
 set root=%~dp0
 
+set titleid=NPUP00030
+
 
 :start
 
@@ -28,6 +30,37 @@ del /f /q %ftpText%
 
 color 0e
 
+set titleidChoice=1
+
+cls
+echo You must have Netflix installed before continuing!
+echo.
+echo.
+echo.
+echo.
+echo 1) NPUP00030
+echo.
+echo 2) NPEB00874
+echo.
+echo 3) NPJB00766
+echo.
+echo.
+echo.
+echo Select which version you have installed and press ENTER....
+echo.
+echo.
+
+set /p titleidChoice=
+
+if %titleidChoice% gtr 3 goto start
+
+if %titleidChoice%==1 set titleid=NPUP00030
+if %titleidChoice%==2 set titleid=NPEB00874
+if %titleidChoice%==3 set titleid=NPJB00766
+
+
+
+:delPrev
 cls
 echo Make sure any previous PSID is removed before starting!
 echo.
@@ -60,7 +93,7 @@ echo.
 echo user ps3>%ftpText%
 echo ps3>>%ftpText%
 echo bin>>%ftpText%
-echo cd /dev_hdd0/game/NPUP00030/USRDIR/APPDATA/>>%ftpText%
+echo cd /dev_hdd0/game/%titleid%/USRDIR/APPDATA/>>%ftpText%
 echo mdelete PSID.dat>>%ftpText%
 echo quit>>%ftpText%
 
@@ -205,7 +238,7 @@ pause>nul
 echo user ps3>%ftpText%
 echo ps3>>%ftpText%
 echo bin>>%ftpText%
-echo cd /dev_hdd0/game/NPUP00030/USRDIR/APPDATA>>%ftpText%
+echo cd /dev_hdd0/game/%titleid%/USRDIR/APPDATA>>%ftpText%
 echo get PSID.dat "%root%PSID.dat">>%ftpText%
 echo quit>>%ftpText%
 

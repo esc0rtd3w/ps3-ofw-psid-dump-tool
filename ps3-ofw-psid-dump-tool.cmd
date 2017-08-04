@@ -33,7 +33,7 @@ color 0e
 set titleidChoice=1
 
 cls
-echo You must have Netflix installed before continuing!
+echo You must have Netflix installed on your CFW console before continuing!
 echo.
 echo.
 echo.

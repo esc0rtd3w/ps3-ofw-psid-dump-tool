@@ -36,6 +36,9 @@ cls
 echo You must have Netflix installed on your CFW console before continuing!
 echo.
 echo.
+echo * You Cannot Have a NoPSN Version Installed, It Must Be Original *
+echo.
+echo.
 echo.
 echo.
 echo 1) NPUP00030

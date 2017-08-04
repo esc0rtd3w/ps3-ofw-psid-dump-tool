@@ -17,7 +17,7 @@ Here are some screenshots. It requires a CFW console using the DTU method.
 Now, the screenshots will give you an idea of what is going on, but basically Netflix generates a PSID.dat file located at "/dev_hdd0/game/NPUP00030/USRDIR/APPDATA". I am using the DTU method in 2 ways, first, I am using it to push NetFlix onto the OFW console (although this just makes it easier) and then run the app on OFW to generate the PSID.dat. Next, you do a "reverse DTU" from the OFW to the CFW console (this has many other benefits that I will not get into at the moment).
 
 
-![Image](http://i.imgur.com/IM2Dydg.png)
+![Image](http://i.imgur.com/CbqP768.png)
 <br/><br/>
 ![Image](http://i.imgur.com/8R2yFxD.png)
 <br/><br/>

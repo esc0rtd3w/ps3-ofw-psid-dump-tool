@@ -3,6 +3,8 @@ Dump PSID From OFW Using Netflix and DTU
 
 * This uses the NPUP00030 version of Netflix. I will add the others soon. Make sure you have this version installed on your CFW before beginning *
 
+* I SHOULD WARN THAT THE CFW CONSOLE HDD GETS ERASED DURING THIS PROCESS!!! *
+
 Ok, this is yet another side project that I have been wanting to test more, and that day has come!!
 
 I have tested this on OFW 4.81, and it does indeed dump the correct PSID, verified by checking on the CFW console.

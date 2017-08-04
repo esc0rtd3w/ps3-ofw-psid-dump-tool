@@ -38,6 +38,6 @@ Now, the screenshots will give you an idea of what is going on, but basically Ne
 <br/><br/>
 ![Image](http://i.imgur.com/NVY7FAj.png)
 <br/><br/>
-![Image](http://i.imgur.com/lkZHeeX.png)
+![Image](http://i.imgur.com/mgWjNMI.png)
 <br/><br/>
 
